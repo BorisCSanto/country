@@ -175,4 +175,19 @@ li {
   border-radius: 10px;
 }
 
+.quizz {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+}
+.quizz #button_reponse {
+  border: none;
+  font-size: 1.1em;
+  margin-left: 10%;
+  color: white;
+  background-color: #282c34;
+  padding: 10px 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

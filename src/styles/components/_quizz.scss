@@ -1,0 +1,15 @@
+.quizz {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vw;
+
+    #button_reponse {
+        border: none;
+        font-size: 1.1em;
+        margin-left: 10%;
+        color: white;
+        background-color: $color-3;
+        padding: 10px 20px;
+    }
+}

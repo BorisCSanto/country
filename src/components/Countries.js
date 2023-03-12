@@ -29,7 +29,11 @@ const Countries = () => {
             <ul>
                 {
                     data
-                        .filter(country => country.continents.includes(selectedRadio))
+                        .filter(country => {
+                            if (selectedRadio !== "")
+                                return country.continents.includes(selectedRadio)
+                            return country
+                        })
                         .slice(0, rangeValue)
                         .map((country, index) => (
                             <Card key={index} country={country} />
